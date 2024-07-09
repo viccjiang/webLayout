@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 全域設定 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-family: "Castoro", serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* 共用設定 */
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-160 {
+  margin-top: 160px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-160 {
+  margin-bottom: 160px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-40 {
+  font-size: 40px;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #ae0000;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-block {
+  display: block;
+}
+
+.color-primary {
+  color: #ae0000;
+}
+
+.color-secondary {
+  color: #949494;
+}
+
+/* 斜體字 */
+.italic {
+  font-style: italic;
+}
+
+/* 客製化設定 */
+.header-title {
+  font-size: 128px;
+  leter-spacing: 0.12em;
+}
+
+.header-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.intro {
+  background-color: #efefef;
+  padding: 48px 0;
+}
+
+.footer {
+  background-color: #000;
+  padding: 64px 0;
+}
+
+.social-list {
+  text-align: center;
+}
+
+.social-list li {
+  display: inline-block;
+}
