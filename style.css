@@ -181,8 +181,24 @@ body {
   margin-top: 160px;
 }
 
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-160 {
+  padding-top: 160px;
+}
+
+.pb-160 {
+  padding-bottom: 160px;
+}
+
 .mb-8 {
   margin-bottom: 8px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
 }
 
 .mb-16 {
