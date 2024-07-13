@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -130,7 +130,7 @@ table {
   border-spacing: 0;
 }
 
-/* 全域設定 */
+/* base */
 *,
 *::before,
 *::after {
@@ -144,149 +144,158 @@ img {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: inherit;
 }
 
 body {
-  font-family: "Castoro", serif;
-  font-size: 24px;
+  font-family: "Bruno Ace SC", serif;
   line-height: 1.5;
 }
 
-/* 共用設定 */
+/* layout */
 .container {
   max-width: 1296px;
   margin: 0 auto;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+/* utils */
+.h1 {
+  font-size: 128px;
 }
 
-.mr-auto {
-  margin-right: auto;
+.h2 {
+  font-size: 64px;
 }
 
-.ml-auto {
-  margin-left: auto;
+.fs-1 {
+  font-size: 32px;
 }
 
-.mt-80 {
-  margin-top: 80px;
+.fs-2 {
+  font-size: 24px;
 }
 
-.mt-160 {
-  margin-top: 160px;
+.fs-3 {
+  font-size: 20px;
 }
 
-.pt-80 {
-  padding-top: 80px;
+.text-light {
+  color: #fff;
 }
 
-.pt-160 {
+.text-primary {
+  color: #00ffa3;
+}
+
+.bg-dark {
+  background-color: #000;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-column {
+  flex-direction: column;
+}
+
+.d-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.py-3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-40 {
   padding-top: 160px;
-}
-
-.pb-160 {
   padding-bottom: 160px;
 }
 
+.px-6 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-13 {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.mr-1 {
+  margin-right: 4px;
+}
+
+.mr-3 {
+  margin-right: 12px;
+}
+
+.ml-3 {
+  margin-left: 12px;
+}
+.mr-4 {
+  margin-right: 16px;
+}
+
 .mb-8 {
-  margin-bottom: 8px;
+  margin-bottom: 32px;
 }
 
-.mb-12 {
-  margin-bottom: 12px;
+.mb-9 {
+  margin-bottom: 36px;
 }
 
-.mb-16 {
-  margin-bottom: 16px;
-}
-
-.mb-40 {
-  margin-bottom: 40px;
-}
-
-.mb-160 {
-  margin-bottom: 160px;
-}
-
-.mr-40 {
-  margin-right: 40px;
-}
-
-.text-right {
-  text-align: right;
+.w-40 {
+  width: 40%;
 }
 
 .w-50 {
   width: 50%;
 }
 
-.fz-20 {
-  font-size: 20px;
+.w-60 {
+  width: 60%;
 }
 
-.fz-32 {
-  font-size: 32px;
+.object-fit {
+  object-fit: cover;
 }
 
-.fz-40 {
-  font-size: 40px;
+.border-radius-8 {
+  border-radius: 32px;
 }
 
-.border-bottom {
-  border-bottom: 3px solid #ae0000;
-}
+/* page */
 
-.d-inline-block {
-  display: inline-block;
-}
-
-.d-block {
-  display: block;
-}
-
-.color-primary {
-  color: #ae0000;
-}
-
-.color-secondary {
-  color: #949494;
-}
-
-/* 斜體字 */
-.italic {
-  font-style: italic;
-}
-
-/* 客製化設定 */
-.header-title {
-  font-size: 128px;
-  leter-spacing: 0.12em;
-}
-
-.header-image {
-  display: block;
-  margin: 0 auto;
-}
-
-.intro {
-  background-color: #efefef;
-  padding: 48px 0;
-}
-
-.footer {
-  background-color: #000;
-  padding: 64px 0;
-}
-
-.social-list {
-  text-align: center;
-}
-
-.social-list li {
-  display: inline-block;
+.bg-img {
+  background-image: url("../image/background-img.png");
+  background-size: cover;
+  background-position: center;
 }
